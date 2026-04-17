@@ -1,0 +1,13 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#F2EBDF"/>
+  <rect x="0" y="420" width="1200" height="380" fill="#5B4230"/>
+  <rect x="70" y="210" width="120" height="500" rx="8" fill="#8A664A"/>
+  <rect x="220" y="170" width="120" height="540" rx="8" fill="#7A5A41"/>
+  <rect x="370" y="230" width="120" height="480" rx="8" fill="#936C4E"/>
+  <rect x="520" y="180" width="120" height="530" rx="8" fill="#866248"/>
+  <rect x="670" y="240" width="120" height="470" rx="8" fill="#9B7353"/>
+  <rect x="820" y="190" width="120" height="520" rx="8" fill="#7C5C43"/>
+  <rect x="970" y="220" width="120" height="490" rx="8" fill="#8E694D"/>
+  <rect y="630" width="1200" height="170" fill="#6F8B52"/>
+  <text x="64" y="92" fill="#3D2D21" font-family="Trebuchet MS, sans-serif" font-size="48" font-weight="700">Holme Fencing Project Placeholder</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#ECF1E5"/>
+  <rect y="510" width="1200" height="290" fill="#3E5A2E"/>
+  <rect x="110" y="140" width="20" height="520" fill="#2B2017"/>
+  <rect x="280" y="140" width="20" height="520" fill="#2B2017"/>
+  <rect x="450" y="140" width="20" height="520" fill="#2B2017"/>
+  <rect x="620" y="140" width="20" height="520" fill="#2B2017"/>
+  <rect x="790" y="140" width="20" height="520" fill="#2B2017"/>
+  <rect x="960" y="140" width="20" height="520" fill="#2B2017"/>
+  <rect x="70" y="230" width="1060" height="22" fill="#2B2017"/>
+  <rect x="70" y="360" width="1060" height="22" fill="#2B2017"/>
+  <rect x="70" y="490" width="1060" height="22" fill="#2B2017"/>
+  <text x="64" y="92" fill="#2B2017" font-family="Trebuchet MS, sans-serif" font-size="48" font-weight="700">Holme Fencing Project Placeholder</text>
+</svg>

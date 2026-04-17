@@ -1,0 +1,20 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#F7F3EC"/>
+  <rect y="560" width="1200" height="240" fill="#567241"/>
+  <rect x="220" y="170" width="300" height="470" rx="14" fill="#4A3527"/>
+  <rect x="680" y="170" width="300" height="470" rx="14" fill="#4A3527"/>
+  <rect x="260" y="220" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="260" y="285" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="260" y="350" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="260" y="415" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="260" y="480" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="260" y="545" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="720" y="220" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="720" y="285" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="720" y="350" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="720" y="415" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="720" y="480" width="220" height="12" fill="#DCCDB7"/>
+  <rect x="720" y="545" width="220" height="12" fill="#DCCDB7"/>
+  <circle cx="600" cy="406" r="32" fill="#4A3527"/>
+  <text x="64" y="92" fill="#3D2D21" font-family="Trebuchet MS, sans-serif" font-size="48" font-weight="700">Holme Fencing Project Placeholder</text>
+</svg>

@@ -1,26 +1,100 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-earth-900: #171c1a;
+  --color-earth-800: #252d29;
+  --color-earth-700: #39433e;
+  --color-earth-600: #7a5c3f;
+  --color-sand-50: #fcfbf9;
+  --color-sand-100: #f6f4f1;
+  --color-sand-200: #ece6dd;
+  --color-sand-300: #d9d0c2;
+  --color-sand-400: #b9ad9d;
+  --color-sage-100: #e9f0e7;
+  --color-sage-200: #d7e3d3;
+  --color-sage-300: #b4c6ad;
+  --color-sage-400: #85a283;
+  --color-sage-500: #5a755a;
+  --color-sage-700: #28513a;
+  --color-sage-800: #1f412f;
+  --color-stone-500: #6f7b75;
+  --color-wood-500: #8d6a46;
+  --color-wood-600: #735536;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 12% -5%, rgba(40, 81, 58, 0.13) 0%, rgba(40, 81, 58, 0) 48%),
+    radial-gradient(circle at 92% 8%, rgba(141, 106, 70, 0.12) 0%, rgba(141, 106, 70, 0) 46%),
+    var(--color-sand-100);
+  color: var(--color-earth-900);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+:where(a) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cta-primary {
+  color: var(--color-sand-50) !important;
+}
+
+.cta-primary:hover,
+.cta-primary:focus-visible,
+.cta-primary:active,
+.cta-primary:visited {
+  color: var(--color-sand-50) !important;
+}
+
+/* Fallback for Tailwind arbitrary green button backgrounds to guarantee light text. */
+[class*="bg-[var(--color-sage-700)]"] {
+  color: var(--color-sand-50) !important;
+}
+
+[class*="bg-[var(--color-sage-700)]"]:hover,
+[class*="bg-[var(--color-sage-700)]"]:focus-visible,
+[class*="bg-[var(--color-sage-700)]"]:active,
+[class*="bg-[var(--color-sage-700)]"]:visited {
+  color: var(--color-sand-50) !important;
+}
+
+.site-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 76rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .site-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
